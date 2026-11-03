@@ -1,0 +1,341 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="11800" viewBox="0 0 1200 11800">
+  <defs>
+    <style>
+      .page { fill: #fffaf2; stroke: #333; stroke-width: 6; }
+      .title { font: bold 64px 'Arial'; fill: #2b1d0e; }
+      .subtitle { font: 36px 'Arial'; fill: #4b2e1c; }
+      .pageNum { font: bold 26px 'Arial'; fill: #3d2b1f; }
+      .animal { fill: none; stroke: #1d1d1d; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .detail { fill: none; stroke: #1d1d1d; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .grass { fill: #9edc6d; stroke: #2d6a2d; stroke-width: 3; }
+      .flower { fill: #ffd6e8; stroke: #3d3048; stroke-width: 3; }
+      .sky { fill: #dff6ff; }
+      .ground { fill: #d9f0a4; }
+      .sun { fill: #ffe17a; stroke: #f4b700; stroke-width: 4; }
+      .cloud { fill: #ffffff; stroke: #8ab7d9; stroke-width: 3; }
+      .line { fill: none; stroke: #000; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <g transform="translate(0,0)">
+    <rect class="page" x="60" y="60" width="1080" height="1080" rx="24"/>
+    <rect x="140" y="140" width="920" height="900" fill="#f3f0ff" stroke="#6f59a8" stroke-width="6"/>
+    <circle class="sun" cx="980" cy="240" r="80"/>
+    <g>
+      <circle class="cloud" cx="260" cy="240" r="42"/>
+      <circle class="cloud" cx="315" cy="220" r="48"/>
+      <circle class="cloud" cx="370" cy="255" r="38"/>
+      <rect x="230" y="250" width="170" height="30" rx="15" fill="#fff" stroke="#8ab7d9" stroke-width="3"/>
+    </g>
+    <g>
+      <rect class="grass" x="150" y="760" width="900" height="220" rx="20"/>
+      <path class="grass" d="M180 780 C220 720, 250 740, 260 780 L180 780 Z"/>
+      <path class="grass" d="M300 780 C350 710, 390 730, 410 780 L300 780 Z"/>
+      <path class="grass" d="M470 780 C520 700, 570 720, 600 780 L470 780 Z"/>
+      <path class="grass" d="M650 780 C695 710, 740 720, 770 780 L650 780 Z"/>
+      <path class="grass" d="M820 780 C840 700, 900 710, 930 780 L820 780 Z"/>
+    </g>
+    <g transform="translate(350, 510)">
+      <ellipse class="animal" cx="0" cy="0" rx="150" ry="110"/>
+      <ellipse class="animal" cx="-120" cy="-10" rx="38" ry="54"/>
+      <ellipse class="animal" cx="120" cy="-10" rx="38" ry="54"/>
+      <circle class="animal" cx="-150" cy="-50" r="18"/>
+      <circle class="animal" cx="150" cy="-50" r="18"/>
+      <path class="detail" d="M-45 15 C-10 -10, 10 -10, 45 15"/>
+      <path class="detail" d="M-50 5 L-95 25 M50 5 L95 25"/>
+      <path class="detail" d="M0 0 L0 80 M-20 45 L20 45"/>
+      <path class="detail" d="M-80 30 L-120 80 M80 30 L120 80"/>
+      <path class="detail" d="M-120 45 L-150 90 M120 45 L150 90"/>
+      <circle class="animal" cx="-140" cy="-50" r="5"/>
+      <circle class="animal" cx="140" cy="-50" r="5"/>
+    </g>
+    <g transform="translate(180, 290)">
+      <path class="flower" d="M0 0 C-12 -30, 8 -55, 28 -52 C22 -20, 28 0, 0 0 Z"/>
+      <path class="flower" d="M0 0 C-28 -12, -52 8, -52 28 C-20 20, 0 26, 0 0 Z"/>
+      <path class="flower" d="M0 0 C20 -10, 50 -8, 54 18 C18 22, 0 22, 0 0 Z"/>
+      <path class="flower" d="M0 0 C-12 26, 6 52, 28 54 C20 26, 18 10, 0 0 Z"/>
+      <circle cx="0" cy="0" r="12" fill="#ffd54a" stroke="#927000" stroke-width="3"/>
+    </g>
+    <g transform="translate(860, 320)">
+      <path class="flower" d="M0 0 C-12 -30, 8 -55, 28 -52 C22 -20, 28 0, 0 0 Z"/>
+      <path class="flower" d="M0 0 C-28 -12, -52 8, -52 28 C-20 20, 0 26, 0 0 Z"/>
+      <path class="flower" d="M0 0 C20 -10, 50 -8, 54 18 C18 22, 0 22, 0 0 Z"/>
+      <path class="flower" d="M0 0 C-12 26, 6 52, 28 54 C20 26, 18 10, 0 0 Z"/>
+      <circle cx="0" cy="0" r="12" fill="#ffd54a" stroke="#927000" stroke-width="3"/>
+    </g>
+    <text x="600" y="130" text-anchor="middle" class="title">Mi libro</text>
+    <text x="600" y="190" text-anchor="middle" class="title">de animales del campo</text>
+    <text x="600" y="870" text-anchor="middle" class="subtitle">¡Colorea cada dibujo!</text>
+    <text x="600" y="920" text-anchor="middle" class="pageNum">PÁGINA 1</text>
+  </g>
+
+  <g transform="translate(0,1120)">
+    <rect class="page" x="60" y="60" width="1080" height="1080" rx="24"/>
+    <rect x="150" y="180" width="900" height="780" fill="#dff6ff" stroke="#4a7ca2" stroke-width="5"/>
+    <rect class="ground" x="150" y="760" width="900" height="200"/>
+    <path class="line" d="M180 770 C220 740, 255 740, 290 770 M320 770 C360 720, 420 720, 470 770 M500 770 C550 700, 610 700, 670 770 M700 770 C760 710, 820 710, 880 770 M910 770 C940 730, 970 730, 1010 770"/>
+    <g transform="translate(600, 520)">
+      <ellipse class="animal" cx="0" cy="0" rx="180" ry="120"/>
+      <ellipse class="animal" cx="-120" cy="-10" rx="42" ry="60"/>
+      <ellipse class="animal" cx="120" cy="-10" rx="42" ry="60"/>
+      <circle class="animal" cx="-152" cy="-55" r="18"/>
+      <circle class="animal" cx="152" cy="-55" r="18"/>
+      <path class="detail" d="M-70 30 L-110 100 M70 30 L110 100 M-30 10 H30"/>
+      <path class="detail" d="M0 0 L0 90"/>
+      <path class="detail" d="M-12 70 Q0 90 12 70"/>
+      <circle class="animal" cx="-150" cy="-55" r="5"/>
+      <circle class="animal" cx="150" cy="-55" r="5"/>
+    </g>
+    <g transform="translate(245, 310)">
+      <path class="flower" d="M0 0 C-12 -30, 8 -55, 28 -52 C22 -20, 28 0, 0 0 Z"/>
+      <path class="flower" d="M0 0 C-28 -12, -52 8, -52 28 C-20 20, 0 26, 0 0 Z"/>
+      <path class="flower" d="M0 0 C20 -10, 50 -8, 54 18 C18 22, 0 22, 0 0 Z"/>
+      <path class="flower" d="M0 0 C-12 26, 6 52, 28 54 C20 26, 18 10, 0 0 Z"/>
+      <circle cx="0" cy="0" r="12" fill="#ffd54a" stroke="#927000" stroke-width="3"/>
+    </g>
+    <g transform="translate(870, 310)">
+      <path class="flower" d="M0 0 C-12 -30, 8 -55, 28 -52 C22 -20, 28 0, 0 0 Z"/>
+      <path class="flower" d="M0 0 C-28 -12, -52 8, -52 28 C-20 20, 0 26, 0 0 Z"/>
+      <path class="flower" d="M0 0 C20 -10, 50 -8, 54 18 C18 22, 0 22, 0 0 Z"/>
+      <path class="flower" d="M0 0 C-12 26, 6 52, 28 54 C20 26, 18 10, 0 0 Z"/>
+      <circle cx="0" cy="0" r="12" fill="#ffd54a" stroke="#927000" stroke-width="3"/>
+    </g>
+    <text x="600" y="130" text-anchor="middle" class="title">La vaca</text>
+    <text x="600" y="930" text-anchor="middle" class="pageNum">PÁGINA 2</text>
+  </g>
+
+  <g transform="translate(0,2240)">
+    <rect class="page" x="60" y="60" width="1080" height="1080" rx="24"/>
+    <rect class="sky" x="150" y="180" width="900" height="500"/>
+    <rect class="ground" x="150" y="680" width="900" height="280"/>
+    <g transform="translate(600, 520)">
+      <circle cx="0" cy="0" r="100" class="animal"/>
+      <path class="animal" d="M-105 10 Q-75 -45 8 -45 Q90 -45 110 8"/>
+      <path class="animal" d="M-80 -40 L-48 -120 M80 -40 L48 -120"/>
+      <path class="detail" d="M-16 55 Q0 95 16 55"/>
+      <path class="detail" d="M-50 60 L-90 110 M50 60 L90 110"/>
+      <circle class="animal" cx="-22" cy="-15" r="12"/>
+      <circle class="animal" cx="22" cy="-15" r="12"/>
+      <path class="detail" d="M-15 -10 Q0 10 15 -10"/>
+      <path class="detail" d="M-90 -52 Q-40 -10 -20 -15"/>
+      <path class="detail" d="M90 -52 Q40 -10 20 -15"/>
+    </g>
+    <g transform="translate(260, 760)">
+      <ellipse cx="0" cy="0" rx="70" ry="45" class="animal"/>
+      <path class="animal" d="M-40 -10 Q-20 -60 0 -90 Q20 -60 40 -10"/>
+      <circle class="animal" cx="-18" cy="-15" r="7"/>
+      <circle class="animal" cx="18" cy="-15" r="7"/>
+      <path class="detail" d="M-10 6 Q0 18 10 6"/>
+    </g>
+    <g transform="translate(900, 760)">
+      <ellipse cx="0" cy="0" rx="70" ry="45" class="animal"/>
+      <path class="animal" d="M-40 -10 Q-20 -60 0 -90 Q20 -60 40 -10"/>
+      <circle class="animal" cx="-18" cy="-15" r="7"/>
+      <circle class="animal" cx="18" cy="-15" r="7"/>
+      <path class="detail" d="M-10 6 Q0 18 10 6"/>
+    </g>
+    <text x="600" y="130" text-anchor="middle" class="title">La gallina</text>
+    <text x="600" y="930" text-anchor="middle" class="pageNum">PÁGINA 3</text>
+  </g>
+
+  <g transform="translate(0,3360)">
+    <rect class="page" x="60" y="60" width="1080" height="1080" rx="24"/>
+    <rect class="sky" x="150" y="180" width="900" height="480"/>
+    <rect class="ground" x="150" y="660" width="900" height="300"/>
+    <g transform="translate(600, 540)">
+      <path class="animal" d="M-180 60 C-120 -150, 120 -150, 180 60 L160 90 L-160 90 Z"/>
+      <path class="animal" d="M-150 60 L-200 180 M150 60 L200 180"/>
+      <path class="animal" d="M-60 25 L-100 175 M60 25 L100 175"/>
+      <path class="animal" d="M-30 10 Q0 -60 30 10"/>
+      <path class="detail" d="M-150 -30 Q-70 -110 0 -120 Q70 -110 150 -30"/>
+      <path class="detail" d="M-20 -30 L-20 80 M20 -30 L20 80"/>
+      <path class="detail" d="M-130 80 Q-80 120 -40 120 Q0 120 40 120 Q80 120 130 80"/>
+    </g>
+    <g transform="translate(260, 780)">
+      <path class="grass" d="M0 0 C25 -45, 85 -70, 120 0"/>
+      <path class="grass" d="M80 0 C100 -30, 150 -35, 180 0"/>
+    </g>
+    <g transform="translate(860, 780)">
+      <path class="grass" d="M0 0 C25 -45, 85 -70, 120 0"/>
+      <path class="grass" d="M80 0 C100 -30, 150 -35, 180 0"/>
+    </g>
+    <text x="600" y="130" text-anchor="middle" class="title">El caballo</text>
+    <text x="600" y="930" text-anchor="middle" class="pageNum">PÁGINA 4</text>
+  </g>
+
+  <g transform="translate(0,4480)">
+    <rect class="page" x="60" y="60" width="1080" height="1080" rx="24"/>
+    <rect class="sky" x="150" y="180" width="900" height="500"/>
+    <rect class="ground" x="150" y="680" width="900" height="280"/>
+    <g transform="translate(600, 540)">
+      <ellipse class="animal" cx="0" cy="0" rx="175" ry="130"/>
+      <circle class="animal" cx="-125" cy="-20" r="70"/>
+      <path class="detail" d="M-135 25 Q-75 80 0 80 Q75 80 135 25"/>
+      <path class="animal" d="M-180 25 L-260 90 M180 25 L260 90"/>
+      <path class="animal" d="M-72 22 L-90 170 M72 22 L90 170"/>
+      <path class="animal" d="M-40 -120 L-10 -200 M40 -120 L10 -200"/>
+      <path class="detail" d="M-150 120 Q-120 150 -80 150"/>
+      <path class="detail" d="M150 120 Q120 150 80 150"/>
+      <circle class="animal" cx="-70" cy="-20" r="8"/>
+      <circle class="animal" cx="70" cy="-20" r="8"/>
+      <path class="detail" d="M-35 0 Q0 20 35 0"/>
+    </g>
+    <g transform="translate(220, 830)">
+      <path class="grass" d="M0 0 C10 -40, 40 -60, 60 -10 L0 0 Z"/>
+      <path class="grass" d="M60 0 C80 -40, 125 -50, 150 0 L60 0 Z"/>
+    </g>
+    <g transform="translate(860, 830)">
+      <path class="grass" d="M0 0 C10 -40, 40 -60, 60 -10 L0 0 Z"/>
+      <path class="grass" d="M60 0 C80 -40, 125 -50, 150 0 L60 0 Z"/>
+    </g>
+    <text x="600" y="130" text-anchor="middle" class="title">La oveja</text>
+    <text x="600" y="930" text-anchor="middle" class="pageNum">PÁGINA 5</text>
+  </g>
+
+  <g transform="translate(0,5600)">
+    <rect class="page" x="60" y="60" width="1080" height="1080" rx="24"/>
+    <rect class="sky" x="150" y="180" width="900" height="450"/>
+    <rect class="ground" x="150" y="630" width="900" height="330"/>
+    <g transform="translate(600, 520)">
+      <ellipse class="animal" cx="0" cy="0" rx="170" ry="120"/>
+      <circle class="animal" cx="-120" cy="-20" r="60"/>
+      <circle class="animal" cx="120" cy="-20" r="60"/>
+      <circle class="animal" cx="-72" cy="-22" r="8"/>
+      <circle class="animal" cx="72" cy="-22" r="8"/>
+      <path class="detail" d="M-10 18 Q0 35 10 18"/>
+      <path class="animal" d="M-155 10 L-220 100 M155 10 L220 100"/>
+      <path class="animal" d="M-55 100 L-70 185 M55 100 L70 185"/>
+      <path class="detail" d="M-10 15 Q10 170 25 170"/>
+      <circle class="animal" cx="0" cy="-40" r="22"/>
+      <path class="detail" d="M-35 -55 Q0 -20 35 -55"/>
+    </g>
+    <g transform="translate(220, 800)">
+      <path class="grass" d="M0 0 C20 -35, 60 -60, 80 0"/>
+      <path class="grass" d="M70 0 C90 -25, 125 -30, 150 0"/>
+    </g>
+    <g transform="translate(860, 800)">
+      <path class="grass" d="M0 0 C20 -35, 60 -60, 80 0"/>
+      <path class="grass" d="M70 0 C90 -25, 125 -30, 150 0"/>
+    </g>
+    <text x="600" y="130" text-anchor="middle" class="title">El cerdo</text>
+    <text x="600" y="930" text-anchor="middle" class="pageNum">PÁGINA 6</text>
+  </g>
+
+  <g transform="translate(0,6720)">
+    <rect class="page" x="60" y="60" width="1080" height="1080" rx="24"/>
+    <rect class="sky" x="150" y="180" width="900" height="500"/>
+    <rect class="ground" x="150" y="680" width="900" height="280"/>
+    <g transform="translate(600, 560)">
+      <ellipse class="animal" cx="0" cy="20" rx="170" ry="120"/>
+      <path class="animal" d="M-130 30 Q-220 -80 -180 -160 Q-160 -200 -120 -160 Q-90 -110 -70 -30"/>
+      <path class="animal" d="M130 30 Q220 -80 180 -160 Q160 -200 120 -160 Q90 -110 70 -30"/>
+      <path class="animal" d="M-90 -120 Q-35 -170 0 -170 Q35 -170 90 -120"/>
+      <circle class="animal" cx="-35" cy="-35" r="12"/>
+      <circle class="animal" cx="35" cy="-35" r="12"/>
+      <path class="detail" d="M-25 0 Q0 20 25 0"/>
+      <path class="animal" d="M-20 10 L-30 150 M20 10 L30 150"/>
+      <path class="animal" d="M0 18 Q-10 70 0 120 Q10 70 0 18"/>
+      <path class="detail" d="M-150 180 Q-90 120 -50 120 Q0 120 50 120 Q90 120 150 180"/>
+    </g>
+    <g transform="translate(280, 700)">
+      <path class="grass" d="M0 0 C20 -30, 60 -25, 90 0 M80 0 C100 -50, 150 -55, 180 0"/>
+    </g>
+    <g transform="translate(880, 700)">
+      <path class="grass" d="M0 0 C20 -30, 60 -25, 90 0 M80 0 C100 -50, 150 -55, 180 0"/>
+    </g>
+    <text x="600" y="130" text-anchor="middle" class="title">El pato</text>
+    <text x="600" y="930" text-anchor="middle" class="pageNum">PÁGINA 7</text>
+  </g>
+
+  <g transform="translate(0,7840)">
+    <rect class="page" x="60" y="60" width="1080" height="1080" rx="24"/>
+    <rect class="sky" x="150" y="180" width="900" height="480"/>
+    <rect class="ground" x="150" y="660" width="900" height="300"/>
+    <g transform="translate(600, 540)">
+      <circle class="animal" cx="0" cy="0" r="120"/>
+      <path class="animal" d="M-60 20 L-130 110 M60 20 L130 110"/>
+      <path class="animal" d="M-25 -120 L-70 -200 M25 -120 L70 -200"/>
+      <path class="animal" d="M0 -10 Q-30 40 0 90 Q30 40 0 -10"/>
+      <circle class="animal" cx="-40" cy="-20" r="12"/>
+      <circle class="animal" cx="40" cy="-20" r="12"/>
+      <path class="detail" d="M-20 20 Q0 40 20 20"/>
+      <path class="detail" d="M-80 120 Q0 180 80 120"/>
+    </g>
+    <g transform="translate(250, 790)">
+      <path class="grass" d="M0 0 C20 -35, 50 -55, 80 0"/>
+      <path class="grass" d="M80 0 C100 -30, 150 -35, 180 0"/>
+    </g>
+    <g transform="translate(860, 790)">
+      <path class="grass" d="M0 0 C20 -35, 50 -55, 80 0"/>
+      <path class="grass" d="M80 0 C100 -30, 150 -35, 180 0"/>
+    </g>
+    <text x="600" y="130" text-anchor="middle" class="title">El conejo</text>
+    <text x="600" y="930" text-anchor="middle" class="pageNum">PÁGINA 8</text>
+  </g>
+
+  <g transform="translate(0,8960)">
+    <rect class="page" x="60" y="60" width="1080" height="1080" rx="24"/>
+    <rect class="sky" x="150" y="180" width="900" height="500"/>
+    <rect class="ground" x="150" y="680" width="900" height="280"/>
+    <g transform="translate(600, 540)">
+      <ellipse class="animal" cx="0" cy="0" rx="150" ry="110"/>
+      <path class="animal" d="M-120 0 Q-170 70 -110 110 Q-80 150 -20 140 Q0 80 0 0"/>
+      <path class="animal" d="M120 0 Q170 70 110 110 Q80 150 20 140 Q0 80 0 0"/>
+      <circle class="animal" cx="-45" cy="-20" r="12"/>
+      <circle class="animal" cx="45" cy="-20" r="12"/>
+      <path class="detail" d="M-25 10 Q0 35 25 10"/>
+      <path class="detail" d="M-25 -120 Q0 -160 25 -120"/>
+      <path class="animal" d="M-80 120 Q0 170 80 120"/>
+    </g>
+    <g transform="translate(250, 780)">
+      <path class="grass" d="M0 0 C25 -50, 70 -40, 110 0"/>
+    </g>
+    <g transform="translate(840, 780)">
+      <path class="grass" d="M0 0 C25 -50, 70 -40, 110 0"/>
+    </g>
+    <text x="600" y="130" text-anchor="middle" class="title">El gato</text>
+    <text x="600" y="930" text-anchor="middle" class="pageNum">PÁGINA 9</text>
+  </g>
+
+  <g transform="translate(0,10080)">
+    <rect class="page" x="60" y="60" width="1080" height="1080" rx="24"/>
+    <rect class="sky" x="150" y="180" width="900" height="470"/>
+    <circle class="sun" cx="930" cy="260" r="72"/>
+    <rect class="ground" x="150" y="650" width="900" height="310"/>
+    <g transform="translate(240, 830)">
+      <ellipse class="animal" cx="0" cy="0" rx="60" ry="40"/>
+      <path class="animal" d="M-40 -10 Q-15 -55 0 -90 Q15 -55 40 -10"/>
+      <circle class="animal" cx="-15" cy="-12" r="7"/>
+      <circle class="animal" cx="15" cy="-12" r="7"/>
+      <path class="detail" d="M-12 8 Q0 20 12 8"/>
+    </g>
+    <g transform="translate(450, 770)">
+      <ellipse class="animal" cx="0" cy="0" rx="80" ry="45"/>
+      <path class="animal" d="M-55 -10 Q-30 -80 0 -100 Q30 -80 55 -10"/>
+      <path class="animal" d="M-50 0 L-110 90 M50 0 L110 90"/>
+      <circle class="animal" cx="-25" cy="-12" r="9"/>
+      <circle class="animal" cx="25" cy="-12" r="9"/>
+    </g>
+    <g transform="translate(680, 810)">
+      <ellipse class="animal" cx="0" cy="0" rx="85" ry="45"/>
+      <path class="animal" d="M-50 -10 Q-40 -80 0 -110 Q40 -80 50 -10"/>
+      <circle class="animal" cx="-20" cy="-12" r="8"/>
+      <circle class="animal" cx="20" cy="-12" r="8"/>
+    </g>
+    <g transform="translate(910, 760)">
+      <circle class="animal" cx="0" cy="0" r="70"/>
+      <path class="animal" d="M-35 0 L-80 90 M35 0 L80 90"/>
+      <path class="animal" d="M-10 -70 L-40 -120 M10 -70 L40 -120"/>
+      <circle class="animal" cx="-20" cy="-15" r="8"/>
+      <circle class="animal" cx="20" cy="-15" r="8"/>
+    </g>
+    <g transform="translate(150, 270)">
+      <path class="grass" d="M0 0 C20 -30, 60 -25, 100 0 M90 0 C120 -30, 170 -35, 210 0"/>
+    </g>
+    <g transform="translate(790, 260)">
+      <path class="grass" d="M0 0 C25 -40, 65 -15, 120 0 M110 0 C150 -30, 190 -35, 230 0"/>
+    </g>
+    <text x="600" y="130" text-anchor="middle" class="title">La granja</text>
+    <text x="600" y="930" text-anchor="middle" class="pageNum">PÁGINA 10</text>
+  </g>
+</svg>
